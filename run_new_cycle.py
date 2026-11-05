@@ -230,8 +230,28 @@ class NewCycleRunner:
     def pipe_cmd(self, cmd_str):
         if not cmd_str.endswith("\n"):
             cmd_str += "\n"
-        self.proc.stdin.write(cmd_str)
-        self.proc.stdin.flush()
+        try:
+            if self.proc and self.proc.stdin and not self.proc.stdin.closed:
+                self.proc.stdin.write(cmd_str)
+                self.proc.stdin.flush()
+                return
+        except Exception:
+            pass
+        # Re-initialize subshell if closed or broken
+        try:
+            self.proc = subprocess.Popen(
+                [ADB, "-s", SERIAL, "shell"],
+                stdin=subprocess.PIPE,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                text=True,
+                encoding="utf-8",
+                bufsize=1
+            )
+            self.proc.stdin.write(cmd_str)
+            self.proc.stdin.flush()
+        except Exception:
+            subprocess.run([ADB, "-s", SERIAL, "shell", cmd_str.strip()], capture_output=True)
 
     def adb_exec(self, cmd_args):
         return subprocess.run([ADB, "-s", SERIAL] + cmd_args, capture_output=True, text=True, encoding="utf-8", errors="ignore").stdout
