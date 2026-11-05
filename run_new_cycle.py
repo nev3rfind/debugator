@@ -264,13 +264,14 @@ class NewCycleRunner:
         # Tap Tab 1
         self.pipe_cmd("input tap 135 2126\n")
         time.sleep(0.2)
-        # If top banner visible, scroll slightly down to reveal tasks
-        root = self.dump_ui()
-        if root is not None:
-            raw = ET.tostring(root, encoding="utf-8").decode("utf-8", "ignore")
-            if "Hive Tests" in raw or "Welcome, stankex" in raw:
-                self.pipe_cmd("input swipe 540 1800 540 600 200\n")
-                time.sleep(0.3)
+        # Scroll up twice to ensure at top
+        self.pipe_cmd("input swipe 540 500 540 1900 200\n")
+        time.sleep(0.2)
+        self.pipe_cmd("input swipe 540 500 540 1900 200\n")
+        time.sleep(0.3)
+        # Now swipe up from 1800 to 700 to bring Pending/Mandatory Tasks into view
+        self.pipe_cmd("input swipe 540 1800 540 700 200\n")
+        time.sleep(0.4)
 
     def find_card(self, patterns):
         for _ in range(3):
