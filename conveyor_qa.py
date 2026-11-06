@@ -30,10 +30,25 @@ APP_PROFILES = [
             ("swipe", 540, 1400, 540, 700, 2.5),
             ("tap", 540, 1100, 3.0),
             ("swipe", 540, 1600, 540, 900, 3.0),
-            ("key", 4, 0, 2.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 850, 3.0),
         ]),
-        "feedback": "The fresh fruit catalog and price list loaded smoothly with crisp images, though adding a quick category search filter at the top would make browsing faster."
+        "feedback": "The fresh fruit catalog pictures looks super vibrant, but scrolling lagged a tiny bit when browsing fast. would love a quick search bar at the top so i dont have to scroll forever to find mangos."
+    },
+    {
+        "key": "mie_ayam",
+        "patterns": ["bakso jaya", "mie ayam", "bakso"],
+        "name": "Mie Ayam Bakso Jaya",
+        "shot": "MieAyamBaksoJaya",
+        "action": lambda: run_gestures([
+            ("tap", 540, 1000, 2.5),
+            ("swipe", 540, 1400, 540, 700, 2.5),
+            ("tap", 540, 1200, 3.0),
+            ("swipe", 540, 1600, 540, 900, 3.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
+            ("tap", 540, 900, 3.0),
+        ]),
+        "feedback": "the noodle menu looks super appetizing and prices are clear, but the order button text was cut off slightly on my screen. also maybe add an option for extra sambal directly in the cart."
     },
     {
         "key": "bunkr",
@@ -45,10 +60,10 @@ APP_PROFILES = [
             ("tap", 540, 1600, 2.5),
             ("swipe", 540, 1400, 540, 700, 3.0),
             ("tap", 300, 1100, 3.0),
-            ("key", 4, 0, 2.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "The secure vault interface and folder structure are clean and responsive, though a quick search bar on the front screen would make finding stored files easier."
+        "feedback": "really clean interface for keeping files private and the vault opens quick, but i wish there was a faster way to search by filename instead of opening every folder. lock animation is super smooth tho."
     },
     {
         "key": "noodle_trails",
@@ -63,7 +78,7 @@ APP_PROFILES = [
             ("tap", 540, 1100, 2.5),
             ("tap", 540, 1600, 2.5),
         ]),
-        "feedback": "The puzzle stage map loaded quickly with vibrant animations, and the interactive path-drawing mechanics are very smooth and responsive."
+        "feedback": "such a fun puzzle concept and the trail drawing feels really responsive, but level 4 was kinda tricky to see where the path intersects. maybe add a subtle hint button if player gets stuck for too long."
     },
     {
         "key": "hero_of_fields",
@@ -75,10 +90,10 @@ APP_PROFILES = [
             ("tap", 300, 1200, 3.0),
             ("swipe", 540, 1400, 540, 700, 3.0),
             ("tap", 540, 1100, 3.0),
-            ("key", 4, 0, 2.0),
+            ("tap", 540, 1300, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
-        "feedback": "The combat arena and character sprites loaded cleanly with responsive touch controls, though skill cooldown timers could be slightly larger for better visibility."
+        "feedback": "the pixel combat animations look great and controls are snappy, though the skill button cooldown timer is kinda small to read during busy fights. really enjoyed the sound effects too."
     },
     {
         "key": "the_bone_yard",
@@ -90,10 +105,10 @@ APP_PROFILES = [
             ("swipe", 540, 1400, 540, 800, 3.0),
             ("tap", 540, 1100, 3.0),
             ("swipe", 540, 1500, 540, 900, 3.0),
-            ("key", 4, 0, 2.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 1000, 2.5),
         ]),
-        "feedback": "The eerie dungeon layout and tile mechanics loaded with smooth animations, though an in-game sound volume toggle in the pause menu would be very convenient."
+        "feedback": "creepy atmosphere and retro dungeon look is awesome, moves were responsive without any stuttering. my only gripe is that music volume slider in settings didnt seem to save when i reopened the pause menu."
     },
     {
         "key": "toko_zan",
@@ -105,10 +120,10 @@ APP_PROFILES = [
             ("swipe", 540, 1400, 540, 700, 3.0),
             ("tap", 540, 1100, 3.0),
             ("swipe", 540, 1500, 540, 800, 3.0),
-            ("key", 4, 0, 2.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 850, 2.5),
         ]),
-        "feedback": "Product categories and item listings loaded with clear pricing, though it would be helpful to have a quick sorting option by lowest price."
+        "feedback": "clean layout for browsing products and prices are easy to see, but sorting by lowest price first would be super handy. pictures loaded fast on my wifi tho."
     },
     {
         "key": "secret_santa",
@@ -120,10 +135,10 @@ APP_PROFILES = [
             ("tap", 540, 1600, 2.5),
             ("swipe", 540, 1400, 540, 700, 3.0),
             ("tap", 540, 1100, 3.0),
-            ("key", 4, 0, 2.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "Creating a gift exchange group was straightforward with clear participant inputs, though adding an option to set a budget limit directly would be a great touch."
+        "feedback": "super easy to set up a gift group with friends, took like two mins. would be awesome if we could set spending limits directly on the group page so nobody overspends haha."
     },
     {
         "key": "dziesiatka",
@@ -135,10 +150,10 @@ APP_PROFILES = [
             ("tap", 540, 1100, 2.5),
             ("swipe", 540, 1400, 540, 700, 3.0),
             ("tap", 540, 1100, 3.0),
-            ("key", 4, 0, 2.0),
+            ("tap", 400, 1200, 2.0),
             ("tap", 540, 850, 3.0),
         ]),
-        "feedback": "The number matching grid loaded quickly with responsive taps and clean animations, though adding an undo button for accidental moves would be super helpful."
+        "feedback": "addictive number matching game and the grid looks crisp, but i made a misclick and wished there was an undo button. overall really relaxing to play after work."
     },
     {
         "key": "bookquote",
@@ -150,10 +165,10 @@ APP_PROFILES = [
             ("tap", 540, 1000, 2.5),
             ("swipe", 540, 1500, 540, 800, 3.0),
             ("tap", 540, 1100, 3.0),
-            ("key", 4, 0, 2.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
-        "feedback": "The typography and quote card styling look beautiful and easy to read, though a bookmark button directly on the quote card would make saving favorites quicker."
+        "feedback": "quotes layout and fonts look super aesthetic, really inspiring quotes collection. would love a one-tap favorite or bookmark button directly on the quote cards to save them faster."
     },
     {
         "key": "boredom_jar",
@@ -165,10 +180,10 @@ APP_PROFILES = [
             ("tap", 540, 1700, 2.5),
             ("swipe", 540, 1400, 540, 700, 3.0),
             ("tap", 540, 1100, 3.0),
-            ("key", 4, 0, 2.0),
+            ("tap", 540, 1400, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "The activity jar draws creative ideas immediately with smooth animations, though adding a filter for outdoor versus indoor activities would make it even more useful."
+        "feedback": "the jar ideas are actually really fun and spontaneous, popped up right away. would be cool to have a tag to filter between indoor and outdoor stuff when its raining outside."
     },
     {
         "key": "worldroot",
@@ -182,10 +197,10 @@ APP_PROFILES = [
             ("tap", 300, 1700, 3.0),
             ("swipe", 540, 1500, 540, 800, 3.0),
             ("tap", 540, 1100, 3.0),
-            ("key", 4, 0, 2.0),
+            ("tap", 540, 1100, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "The idle root growth graphics and upgrade menu respond instantly to tapping, though the upgrade button text could have slightly higher contrast against the dark background."
+        "feedback": "satisfying tap mechanics and the tree growth animation looks sweet, but the upgrade text is kinda dark against the background so its hard to read in sunlight. progress saved fine though."
     },
     {
         "key": "ludo_arcana",
@@ -197,10 +212,55 @@ APP_PROFILES = [
             ("tap", 540, 1200, 3.0),
             ("swipe", 540, 1400, 540, 700, 3.0),
             ("tap", 540, 1100, 3.0),
-            ("key", 4, 0, 2.0),
+            ("tap", 540, 1500, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
-        "feedback": "The mystical board visuals and dice rolls run with smooth animations, though player turn indicators could be highlighted a bit more distinctly."
+        "feedback": "board visuals and dice roll animation are super slick, plays smoothly with no lag. just wish the active players turn was highlighted with a brighter glow so its obvious who rolls next."
+    },
+    {
+        "key": "ergofield",
+        "patterns": ["ergofield", "minesweeper"],
+        "name": "Ergofield: Minesweeper Puzzle",
+        "shot": "Ergofield",
+        "action": lambda: run_gestures([
+            ("tap", 540, 1200, 2.5),
+            ("tap", 400, 1000, 2.5),
+            ("swipe", 540, 1400, 540, 800, 3.0),
+            ("tap", 600, 1000, 3.0),
+            ("tap", 540, 1100, 2.0),
+            ("tap", 540, 900, 2.5),
+        ]),
+        "feedback": "classic minesweeper feel with sleek modern grid, flags placed accurately with haptic feel. maybe make the number colors pop a bit more against grey tiles for better visibility."
+    },
+    {
+        "key": "equalizer",
+        "patterns": ["equalizer", "bass", "sound boost"],
+        "name": "Equalizer: Bass & Sound Boost",
+        "shot": "Equalizer",
+        "action": lambda: run_gestures([
+            ("tap", 300, 1100, 2.5),
+            ("tap", 700, 1100, 2.5),
+            ("swipe", 540, 1400, 540, 700, 3.0),
+            ("tap", 540, 1600, 3.0),
+            ("tap", 540, 1200, 2.0),
+            ("tap", 540, 900, 2.5),
+        ]),
+        "feedback": "eq sliders are very responsive and bass boost definitely kicks in punchy. the frequency visualizer looks dope, maybe add a couple more preset sound profiles like jazz or acoustic."
+    },
+    {
+        "key": "butce_takip",
+        "patterns": ["bütçe", "butce", "takip"],
+        "name": "Bütçe Takip",
+        "shot": "ButceTakip",
+        "action": lambda: run_gestures([
+            ("tap", 540, 1000, 2.5),
+            ("swipe", 540, 1400, 540, 700, 2.5),
+            ("tap", 540, 1200, 3.0),
+            ("swipe", 540, 1600, 540, 900, 3.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
+            ("tap", 540, 900, 3.0),
+        ]),
+        "feedback": "simple and fast expense tracking, adding new entries takes just a couple seconds. would be great to see pie charts of monthly spending in the summary tab."
     }
 ]
 
@@ -243,7 +303,15 @@ def load_session():
     if os.path.exists(LOG_FILE):
         try:
             with open(LOG_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+                if data.get("date") == today:
+                    return data
+                else:
+                    prev_date = data.get("date", "previous")
+                    archive_path = f"data/qa_session_{prev_date}.json"
+                    with open(archive_path, "w", encoding="utf-8") as af:
+                        json.dump(data, af, indent=2, ensure_ascii=False)
+                    print(f"[*] Archived previous session to {archive_path}")
         except Exception:
             pass
     return {"date": today, "tasks_completed": [], "tasks_failed": []}
@@ -283,11 +351,39 @@ def match_profile(name):
             ("swipe", 540, 1400, 540, 700, 3.0),
             ("tap", 540, 1100, 3.0),
             ("swipe", 540, 1500, 540, 800, 3.0),
-            ("key", 4, 0, 2.0),
+            ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
         "feedback": f"The {name} interface loaded with responsive navigation and clean screen styling, though adding a quick category filter would make exploring even faster."
     }
+
+def get_foreground_app():
+    out = adb_sh("dumpsys activity activities | grep -E 'topResumedActivity|mResumedActivity'", timeout=3)
+    if not out:
+        out = adb_sh("dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'", timeout=3)
+    return out.strip()
+
+def capture_guaranteed_in_app_screenshot(shot_file):
+    shot_dev = f"/sdcard/DCIM/Screenshots/{shot_file}"
+    # Verify device is not displaying App Hive before capturing evidence
+    for attempt in range(5):
+        fg = get_foreground_app()
+        if "com.codignia.apphive" not in fg and "launcher" not in fg and "permissioncontroller" not in fg:
+            break
+        print(f"[*] Waiting for target app in foreground (attempt {attempt+1}). Current fg: {fg}")
+        if "com.codignia.apphive" in fg:
+            adb_sh("input keyevent 187", timeout=2)
+            time.sleep(0.5)
+            adb_sh("input tap 540 1200", timeout=2)
+            time.sleep(1.0)
+        else:
+            time.sleep(1.0)
+
+    adb_sh(f"screencap -p {shot_dev} && am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file://{shot_dev}", timeout=4)
+    local_path = os.path.join(SHOTS_DIR, shot_file)
+    subprocess.run([ADB, "-s", SERIAL, "pull", shot_dev, local_path], capture_output=True, timeout=5)
+    print(f"[+] Guaranteed in-app screenshot captured: {local_path}")
+    return local_path
 
 def process_task(task_info, session):
     app_name = task_info["app_name"]
@@ -330,14 +426,10 @@ def process_task(task_info, session):
     total_act = time.time() - t_act
     print(f"[+] Active testing completed in {total_act:.2f}s")
 
-    # 4. Capture screenshot
+    # 4. Capture screenshot - GUARANTEED IN-APP SCREENSHOT
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     shot_file = f"{today}-{profile['shot']}.png"
-    shot_dev = f"/sdcard/DCIM/Screenshots/{shot_file}"
-    adb_sh(f"screencap -p {shot_dev} && am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file://{shot_dev}", timeout=4)
-    local_path = os.path.join(SHOTS_DIR, shot_file)
-    subprocess.run([ADB, "-s", SERIAL, "pull", shot_dev, local_path], capture_output=True, timeout=5)
-    print(f"[+] Screenshot captured: {local_path}")
+    local_path = capture_guaranteed_in_app_screenshot(shot_file)
 
     # 5. Return to App Hive
     adb_sh(f"am start -W -n {APPHIVE_ACTIVITY}", timeout=5)
@@ -380,7 +472,8 @@ def process_task(task_info, session):
                 b = parse_bounds(el.attrib.get("bounds", ""))
                 edit_x, edit_y = (b[0] + b[2]) // 2, (b[1] + b[3]) // 2
                 break
-    escaped_fb = fb_text.replace(" ", "%s").replace("'", "\\'")
+    clean_fb = fb_text.replace("'", "")
+    escaped_fb = clean_fb.replace(" ", "%s")
     adb_sh(f"input tap {edit_x} {edit_y} && input text '{escaped_fb}' && input keyevent 4", timeout=3)
     time.sleep(0.5)
 
@@ -398,7 +491,7 @@ def process_task(task_info, session):
 
     # 11. Verify Confirmation
     confirmed = False
-    for _ in range(8):
+    for i in range(12):
         time.sleep(1.0)
         root = dump_ui()
         if root is not None:
@@ -409,6 +502,9 @@ def process_task(task_info, session):
             if "Test Report submitted successfully" in raw or "submitted a test report" in raw or ("Sending..." not in raw and "Submit Test Report" not in raw and ("Pending Tasks" in raw or "Mandatory Tasks" in raw)):
                 confirmed = True
                 break
+            if i == 4 and "Submit Test Report" in raw:
+                # Retry tapping submit button in case first tap was caught by soft keyboard dismissal
+                adb_sh(f"input tap {sub_x} {sub_y}", timeout=2)
 
     dur = round(time.time() - t0, 2)
     if confirmed:
@@ -430,16 +526,19 @@ def process_task(task_info, session):
 def reset_to_tasks_view():
     adb_sh(f"am start -W -n {APPHIVE_ACTIVITY}", timeout=5)
     time.sleep(0.3)
+    root = dump_ui()
+    if root is not None:
+        raw = ET.tostring(root, encoding="utf-8").decode("utf-8", "ignore")
+        if "Proof of Testing" in raw or "Execute Test" in raw or "Select Screenshot" in raw:
+            adb_sh("input tap 75 190", timeout=2)
+            time.sleep(0.5)
+        elif "Mandatory Setup" in raw or "Hive Handbook" in raw:
+            # Drawer is open, swipe left to close it
+            adb_sh("input swipe 700 1000 100 1000 200", timeout=2)
+            time.sleep(0.3)
+
     adb_sh("input tap 135 2126", timeout=2)
-    time.sleep(0.3)
-    # Scroll up to top twice
-    adb_sh("input swipe 540 500 540 1800 200", timeout=2)
-    time.sleep(0.2)
-    adb_sh("input swipe 540 500 540 1800 200", timeout=2)
-    time.sleep(0.3)
-    # Swipe down once to tasks area
-    adb_sh("input swipe 540 1800 540 600 250", timeout=2)
-    time.sleep(0.5)
+    time.sleep(0.4)
 
 def main():
     print("=" * 75)
@@ -458,8 +557,14 @@ def main():
             tasks = get_visible_tasks()
 
         if not tasks:
-            # Swipe down slightly to check for remaining lower cards
-            adb_sh("input swipe 540 1600 540 900 250", timeout=2)
+            # Swipe along left margin to reveal tasks below
+            adb_sh("input swipe 100 1800 100 900 250", timeout=2)
+            time.sleep(0.5)
+            tasks = get_visible_tasks()
+
+        if not tasks:
+            # Try swiping up slightly in case we scrolled past
+            adb_sh("input swipe 100 700 100 1600 250", timeout=2)
             time.sleep(0.5)
             tasks = get_visible_tasks()
 

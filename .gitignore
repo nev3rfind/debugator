@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 data/evidence/shots/
 .system_generated/
+data/*.png
+data/*.xml
+data/evidence/*.png
+data/evidence/*.xml
