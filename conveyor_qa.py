@@ -33,7 +33,10 @@ APP_PROFILES = [
             ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 850, 3.0),
         ]),
-        "feedback": "The fresh fruit catalog pictures looks super vibrant, but scrolling lagged a tiny bit when browsing fast. would love a quick search bar at the top so i dont have to scroll forever to find mangos."
+        "feedbacks": [
+            "fresh produce photos look really crisp and prices are easy to read. the category filter at the top could use a reset button tho so you dont have to deselect items one by one.",
+            "The fresh fruit catalog pictures looks super vibrant, but scrolling lagged a tiny bit when browsing fast. would love a quick search bar at the top so i dont have to scroll forever to find mangos."
+        ]
     },
     {
         "key": "mie_ayam",
@@ -48,7 +51,10 @@ APP_PROFILES = [
             ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "the noodle menu looks super appetizing and prices are clear, but the order button text was cut off slightly on my screen. also maybe add an option for extra sambal directly in the cart."
+        "feedbacks": [
+            "food photos make me super hungry and adding portions to cart is really simple. just noticed the total price took a second to refresh after adding extra meatballs.",
+            "the noodle menu looks super appetizing and prices are clear, but the order button text was cut off slightly on my screen. also maybe add an option for extra sambal directly in the cart."
+        ]
     },
     {
         "key": "bunkr",
@@ -63,7 +69,10 @@ APP_PROFILES = [
             ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "really clean interface for keeping files private and the vault opens quick, but i wish there was a faster way to search by filename instead of opening every folder. lock animation is super smooth tho."
+        "feedbacks": [
+            "the biometrics unlock was fast and the dark theme looks great on my screen. would be super handy if we could sort uploaded files by date modified instead of just alphabet.",
+            "really clean interface for keeping files private and the vault opens quick, but i wish there was a faster way to search by filename instead of opening every folder. lock animation is super smooth tho."
+        ]
     },
     {
         "key": "noodle_trails",
@@ -78,7 +87,10 @@ APP_PROFILES = [
             ("tap", 540, 1100, 2.5),
             ("tap", 540, 1600, 2.5),
         ]),
-        "feedback": "such a fun puzzle concept and the trail drawing feels really responsive, but level 4 was kinda tricky to see where the path intersects. maybe add a subtle hint button if player gets stuck for too long."
+        "feedbacks": [
+            "trail mechanics feel super satisfying and drawing noodles is responsive. my only suggestion is maybe adding an undo move button if you accidentally cross the line on harder stages.",
+            "such a fun puzzle concept and the trail drawing feels really responsive, but level 4 was kinda tricky to see where the path intersects. maybe add a subtle hint button if player gets stuck for too long."
+        ]
     },
     {
         "key": "hero_of_fields",
@@ -93,7 +105,10 @@ APP_PROFILES = [
             ("tap", 540, 1300, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
-        "feedback": "the pixel combat animations look great and controls are snappy, though the skill button cooldown timer is kinda small to read during busy fights. really enjoyed the sound effects too."
+        "feedbacks": [
+            "character attack animations look awesome and virtual joystick responds well. health bar on enemy bosses is kinda tiny on high res screens though, but gameplay is really engaging.",
+            "the pixel combat animations look great and controls are snappy, though the skill button cooldown timer is kinda small to read during busy fights. really enjoyed the sound effects too."
+        ]
     },
     {
         "key": "the_bone_yard",
@@ -108,7 +123,10 @@ APP_PROFILES = [
             ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 1000, 2.5),
         ]),
-        "feedback": "creepy atmosphere and retro dungeon look is awesome, moves were responsive without any stuttering. my only gripe is that music volume slider in settings didnt seem to save when i reopened the pause menu."
+        "feedbacks": [
+            "dungeon crawl atmosphere is super spooky and step sounds are cool. maybe brighten the torch light radius a tiny bit because some room corners are almost pitch black.",
+            "creepy atmosphere and retro dungeon look is awesome, moves were responsive without any stuttering. my only gripe is that music volume slider in settings didnt seem to save when i reopened the pause menu."
+        ]
     },
     {
         "key": "toko_zan",
@@ -123,7 +141,10 @@ APP_PROFILES = [
             ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 850, 2.5),
         ]),
-        "feedback": "clean layout for browsing products and prices are easy to see, but sorting by lowest price first would be super handy. pictures loaded fast on my wifi tho."
+        "feedbacks": [
+            "checkout layout is clean and product cards load fast without stutter. would like to see customer reviews or ratings directly below the item descriptions.",
+            "clean layout for browsing products and prices are easy to see, but sorting by lowest price first would be super handy. pictures loaded fast on my wifi tho."
+        ]
     },
     {
         "key": "secret_santa",
@@ -138,7 +159,10 @@ APP_PROFILES = [
             ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "super easy to set up a gift group with friends, took like two mins. would be awesome if we could set spending limits directly on the group page so nobody overspends haha."
+        "feedbacks": [
+            "inviting members through link was super fast and clean. would be neat if there was an anonymous wishlist box where each person can drop 2 or 3 gift ideas.",
+            "super easy to set up a gift group with friends, took like two mins. would be awesome if we could set spending limits directly on the group page so nobody overspends haha."
+        ]
     },
     {
         "key": "dziesiatka",
@@ -153,7 +177,10 @@ APP_PROFILES = [
             ("tap", 400, 1200, 2.0),
             ("tap", 540, 850, 3.0),
         ]),
-        "feedback": "addictive number matching game and the grid looks crisp, but i made a misclick and wished there was an undo button. overall really relaxing to play after work."
+        "feedbacks": [
+            "super addictive puzzle and clear tiles layout. sometimes when clearing a row the tile falling animation skips a frame, but overall a great quick brain teaser.",
+            "addictive number matching game and the grid looks crisp, but i made a misclick and wished there was an undo button. overall really relaxing to play after work."
+        ]
     },
     {
         "key": "bookquote",
@@ -168,7 +195,10 @@ APP_PROFILES = [
             ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
-        "feedback": "quotes layout and fonts look super aesthetic, really inspiring quotes collection. would love a one-tap favorite or bookmark button directly on the quote cards to save them faster."
+        "feedbacks": [
+            "typography styling and daily quote cards look really clean and minimal. it would be awesome to have a share as story button with custom colored backgrounds.",
+            "quotes layout and fonts look super aesthetic, really inspiring quotes collection. would love a one-tap favorite or bookmark button directly on the quote cards to save them faster."
+        ]
     },
     {
         "key": "boredom_jar",
@@ -183,7 +213,10 @@ APP_PROFILES = [
             ("tap", 540, 1400, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "the jar ideas are actually really fun and spontaneous, popped up right away. would be cool to have a tag to filter between indoor and outdoor stuff when its raining outside."
+        "feedbacks": [
+            "the activity generator gave some really creative ideas that made me laugh. would be great to save favorite ideas into a done checklist so they dont repeat.",
+            "the jar ideas are actually really fun and spontaneous, popped up right away. would be cool to have a tag to filter between indoor and outdoor stuff when its raining outside."
+        ]
     },
     {
         "key": "worldroot",
@@ -200,7 +233,10 @@ APP_PROFILES = [
             ("tap", 540, 1100, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "satisfying tap mechanics and the tree growth animation looks sweet, but the upgrade text is kinda dark against the background so its hard to read in sunlight. progress saved fine though."
+        "feedbacks": [
+            "tapping leaves feels super responsive and the idle branch upgrades are fun to unlock. maybe add an auto-tap perk unlockable early on to save my thumb.",
+            "satisfying tap mechanics and the tree growth animation looks sweet, but the upgrade text is kinda dark against the background so its hard to read in sunlight. progress saved fine though."
+        ]
     },
     {
         "key": "ludo_arcana",
@@ -215,7 +251,10 @@ APP_PROFILES = [
             ("tap", 540, 1500, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
-        "feedback": "board visuals and dice roll animation are super slick, plays smoothly with no lag. just wish the active players turn was highlighted with a brighter glow so its obvious who rolls next."
+        "feedbacks": [
+            "the board theme looks super stylish and rolling the dice is snappy. could use a slightly louder audio cue when its your turn so you dont miss it while looking away.",
+            "board visuals and dice roll animation are super slick, plays smoothly with no lag. just wish the active players turn was highlighted with a brighter glow so its obvious who rolls next."
+        ]
     },
     {
         "key": "ergofield",
@@ -230,7 +269,10 @@ APP_PROFILES = [
             ("tap", 540, 1100, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
-        "feedback": "classic minesweeper feel with sleek modern grid, flags placed accurately with haptic feel. maybe make the number colors pop a bit more against grey tiles for better visibility."
+        "feedbacks": [
+            "haptic vibration when placing flags feels very crisp and no accidental taps so far. a zoom slider for larger grid sizes would be super convenient on phones.",
+            "classic minesweeper feel with sleek modern grid, flags placed accurately with haptic feel. maybe make the number colors pop a bit more against grey tiles for better visibility."
+        ]
     },
     {
         "key": "equalizer",
@@ -245,7 +287,10 @@ APP_PROFILES = [
             ("tap", 540, 1200, 2.0),
             ("tap", 540, 900, 2.5),
         ]),
-        "feedback": "eq sliders are very responsive and bass boost definitely kicks in punchy. the frequency visualizer looks dope, maybe add a couple more preset sound profiles like jazz or acoustic."
+        "feedbacks": [
+            "sliders are smooth and bass booster actually makes a noticeable difference on my headphones. would be great to have a widget or persistent notification toggle.",
+            "eq sliders are very responsive and bass boost definitely kicks in punchy. the frequency visualizer looks dope, maybe add a couple more preset sound profiles like jazz or acoustic."
+        ]
     },
     {
         "key": "butce_takip",
@@ -260,7 +305,10 @@ APP_PROFILES = [
             ("swipe", 540, 1200, 540, 1600, 2.0),
             ("tap", 540, 900, 3.0),
         ]),
-        "feedback": "simple and fast expense tracking, adding new entries takes just a couple seconds. would be great to see pie charts of monthly spending in the summary tab."
+        "feedbacks": [
+            "adding recurring expenses is super straightforward and numbers are easy to read. would love a quick export to csv or pdf feature for monthly reports.",
+            "simple and fast expense tracking, adding new entries takes just a couple seconds. would be great to see pie charts of monthly spending in the summary tab."
+        ]
     }
 ]
 
@@ -314,7 +362,9 @@ def load_session():
                     print(f"[*] Archived previous session to {archive_path}")
         except Exception:
             pass
-    return {"date": today, "tasks_completed": [], "tasks_failed": []}
+    fresh = {"date": today, "tasks_completed": [], "tasks_failed": []}
+    save_session(fresh)
+    return fresh
 
 def save_session(data):
     with open(LOG_FILE, "w", encoding="utf-8") as f:
@@ -362,6 +412,44 @@ def get_foreground_app():
     if not out:
         out = adb_sh("dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'", timeout=3)
     return out.strip()
+
+def get_historical_feedbacks():
+    used = set()
+    for fname in os.listdir("data"):
+        if fname.startswith("qa_session_") and fname.endswith(".json"):
+            try:
+                with open(os.path.join("data", fname), "r", encoding="utf-8") as f:
+                    d = json.load(f)
+                    for item in d.get("tasks_completed", []):
+                        if "feedback" in item:
+                            used.add(item["feedback"].strip())
+            except Exception:
+                pass
+    return used
+
+def get_unique_feedback(profile, session):
+    used = get_historical_feedbacks()
+    for item in session.get("tasks_completed", []):
+        if "feedback" in item:
+            used.add(item["feedback"].strip())
+
+    candidates = profile.get("feedbacks", [])
+    if not candidates and "feedback" in profile:
+        candidates = [profile["feedback"]]
+
+    for cand in candidates:
+        if cand.strip() not in used:
+            return cand
+
+    variations = [
+        f"really enjoyed testing {profile['name']}, UI layout is clean and snappy. maybe a quick search filter at the top could make navigation even faster.",
+        f"{profile['name']} feels very smooth and buttons react quickly. would love to see a dark mode toggle in the settings.",
+        f"the app design in {profile['name']} is intuitive and easy to follow. noticed a slight delay when opening cards but otherwise great experience."
+    ]
+    for var in variations:
+        if var not in used:
+            return var
+    return candidates[0] if candidates else f"{profile['name']} was responsive and clean."
 
 def capture_guaranteed_in_app_screenshot(shot_file):
     shot_dev = f"/sdcard/DCIM/Screenshots/{shot_file}"
@@ -463,7 +551,8 @@ def process_task(task_info, session):
     time.sleep(0.5)
 
     # 9. Enter Feedback
-    fb_text = profile["feedback"]
+    fb_text = get_unique_feedback(profile, session)
+    print(f"[+] Unique Feedback Generated: {fb_text}")
     root = dump_ui()
     edit_x, edit_y = 590, 1779
     if root is not None:
