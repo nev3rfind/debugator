@@ -3,6 +3,7 @@ import json
 import os
 import random
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -13,8 +14,21 @@ if sys.stdout:
 if sys.stderr:
     sys.stderr.reconfigure(encoding='utf-8', errors='replace', line_buffering=True)
 
-ADB = r"C:\Users\ddona\AppData\Local\Android\Sdk\platform-tools\adb.exe"
-SERIAL = "R3GL5059FTZ"
+ADB = os.environ.get("ADB_PATH") or shutil.which("adb") or r"C:\Users\ddona\AppData\Local\Android\Sdk\platform-tools\adb.exe"
+
+def get_default_serial():
+    if os.environ.get("ANDROID_SERIAL"):
+        return os.environ.get("ANDROID_SERIAL")
+    try:
+        res = subprocess.run([ADB, "devices"], capture_output=True, text=True, timeout=3)
+        lines = [l.split()[0] for l in res.stdout.strip().splitlines()[1:] if "\tdevice" in l]
+        if lines:
+            return lines[0]
+    except Exception:
+        pass
+    return "R3GL5059FTZ"
+
+SERIAL = get_default_serial()
 APPHIVE_ACTIVITY = "com.codignia.apphive/.MainActivity"
 LOG_FILE = "data/qa_continuous_session.json"
 SHOTS_DIR = "data/evidence/shots"

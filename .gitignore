@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
-data/evidence/shots/
+data/evidence/shots/*
+!data/evidence/shots/.gitkeep
 .system_generated/
 data/*.png
 data/*.xml
