@@ -48,6 +48,7 @@ APP_PROFILES = [
             ("tap", 540, 850, 3.0),
         ]),
         "feedbacks": [
+            "fruit stock updates loaded super quick today and checkout button placement is easy to reach with one hand. maybe add weight options like 500g vs 1kg directly on the product card so we dont gotta tap into each one.",
             "fresh produce photos look really crisp and prices are easy to read. the category filter at the top could use a reset button tho so you dont have to deselect items one by one.",
             "The fresh fruit catalog pictures looks super vibrant, but scrolling lagged a tiny bit when browsing fast. would love a quick search bar at the top so i dont have to scroll forever to find mangos."
         ]
@@ -66,6 +67,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 3.0),
         ]),
         "feedbacks": [
+            "browsing through the bakso combos felt super smooth and the spicy level selector works nicely. would be cool if favorite orders saved at the top for quick reordering next time.",
             "food photos make me super hungry and adding portions to cart is really simple. just noticed the total price took a second to refresh after adding extra meatballs.",
             "the noodle menu looks super appetizing and prices are clear, but the order button text was cut off slightly on my screen. also maybe add an option for extra sambal directly in the cart."
         ]
@@ -84,6 +86,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 3.0),
         ]),
         "feedbacks": [
+            "vault animations feel snappy and hiding sensitive docs takes just a couple taps. one tiny thing is thumbnail previews inside locked folders load a bit slow on large images, otherwise works solid.",
             "the biometrics unlock was fast and the dark theme looks great on my screen. would be super handy if we could sort uploaded files by date modified instead of just alphabet.",
             "really clean interface for keeping files private and the vault opens quick, but i wish there was a faster way to search by filename instead of opening every folder. lock animation is super smooth tho."
         ]
@@ -102,6 +105,7 @@ APP_PROFILES = [
             ("tap", 540, 1600, 2.5),
         ]),
         "feedbacks": [
+            "the color contrast on the puzzle board looks really nice and swipes track accurately. sometimes my thumb covers the next corner while dragging tho, maybe slightly zoomable camera would help.",
             "trail mechanics feel super satisfying and drawing noodles is responsive. my only suggestion is maybe adding an undo move button if you accidentally cross the line on harder stages.",
             "such a fun puzzle concept and the trail drawing feels really responsive, but level 4 was kinda tricky to see where the path intersects. maybe add a subtle hint button if player gets stuck for too long."
         ]
@@ -120,6 +124,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 2.5),
         ]),
         "feedbacks": [
+            "retro combat feels really tight and switching weapons is quick. wish there was a tiny tutorial popup explaining elemental weaknesses because i died twice before figuring it out lol.",
             "character attack animations look awesome and virtual joystick responds well. health bar on enemy bosses is kinda tiny on high res screens though, but gameplay is really engaging.",
             "the pixel combat animations look great and controls are snappy, though the skill button cooldown timer is kinda small to read during busy fights. really enjoyed the sound effects too."
         ]
@@ -138,6 +143,7 @@ APP_PROFILES = [
             ("tap", 540, 1000, 2.5),
         ]),
         "feedbacks": [
+            "spooky dungeon vibe is nailed and enemy hitboxes feel fair. adding a mini map corner overlay would help a lot so players dont keep walking back into empty rooms.",
             "dungeon crawl atmosphere is super spooky and step sounds are cool. maybe brighten the torch light radius a tiny bit because some room corners are almost pitch black.",
             "creepy atmosphere and retro dungeon look is awesome, moves were responsive without any stuttering. my only gripe is that music volume slider in settings didnt seem to save when i reopened the pause menu."
         ]
@@ -156,6 +162,7 @@ APP_PROFILES = [
             ("tap", 540, 850, 2.5),
         ]),
         "feedbacks": [
+            "storefront loads quick and fonts look very clean on mobile. would appreciate a wishlist heart icon on each item card so you can save stuff for later before checking out.",
             "checkout layout is clean and product cards load fast without stutter. would like to see customer reviews or ratings directly below the item descriptions.",
             "clean layout for browsing products and prices are easy to see, but sorting by lowest price first would be super handy. pictures loaded fast on my wifi tho."
         ]
@@ -174,6 +181,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 3.0),
         ]),
         "feedbacks": [
+            "drawing names works without any hiccups and notifications arrived right away. would be nice if you could reshuffle pairs without having to delete and recreate the whole room.",
             "inviting members through link was super fast and clean. would be neat if there was an anonymous wishlist box where each person can drop 2 or 3 gift ideas.",
             "super easy to set up a gift group with friends, took like two mins. would be awesome if we could set spending limits directly on the group page so nobody overspends haha."
         ]
@@ -192,6 +200,7 @@ APP_PROFILES = [
             ("tap", 540, 850, 3.0),
         ]),
         "feedbacks": [
+            "really fun math twist on puzzle grids and runs super lightweight without warming up my phone. adding a daily challenge leaderboard or streak counter would make me come back every day.",
             "super addictive puzzle and clear tiles layout. sometimes when clearing a row the tile falling animation skips a frame, but overall a great quick brain teaser.",
             "addictive number matching game and the grid looks crisp, but i made a misclick and wished there was an undo button. overall really relaxing to play after work."
         ]
@@ -210,6 +219,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 2.5),
         ]),
         "feedbacks": [
+            "love the serif font choices and how calm the feed looks when scrolling. sometimes tapping an author name doesnt filter by their other quotes yet, that would be a great addition.",
             "typography styling and daily quote cards look really clean and minimal. it would be awesome to have a share as story button with custom colored backgrounds.",
             "quotes layout and fonts look super aesthetic, really inspiring quotes collection. would love a one-tap favorite or bookmark button directly on the quote cards to save them faster."
         ]
@@ -228,6 +238,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 3.0),
         ]),
         "feedbacks": [
+            "shaking the jar animation feels cute and loading new prompts is instant. would be nice to add custom user ideas into our own personal jar deck.",
             "the activity generator gave some really creative ideas that made me laugh. would be great to save favorite ideas into a done checklist so they dont repeat.",
             "the jar ideas are actually really fun and spontaneous, popped up right away. would be cool to have a tag to filter between indoor and outdoor stuff when its raining outside."
         ]
@@ -248,6 +259,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 3.0),
         ]),
         "feedbacks": [
+            "the ambient soundscape and leaf particle effects are surprisingly relaxing. offline earnings calculation seemed a tiny bit low after reopening the app, otherwise super polished idle game.",
             "tapping leaves feels super responsive and the idle branch upgrades are fun to unlock. maybe add an auto-tap perk unlockable early on to save my thumb.",
             "satisfying tap mechanics and the tree growth animation looks sweet, but the upgrade text is kinda dark against the background so its hard to read in sunlight. progress saved fine though."
         ]
@@ -266,6 +278,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 2.5),
         ]),
         "feedbacks": [
+            "love the mystical card art twist on classic ludo and token moves never stutter. an option to speed up bot animations 2x would make solo matches way breezier.",
             "the board theme looks super stylish and rolling the dice is snappy. could use a slightly louder audio cue when its your turn so you dont miss it while looking away.",
             "board visuals and dice roll animation are super slick, plays smoothly with no lag. just wish the active players turn was highlighted with a brighter glow so its obvious who rolls next."
         ]
@@ -284,6 +297,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 2.5),
         ]),
         "feedbacks": [
+            "quick toggle between flag and dig modes works cleanly and board clears smoothly. timer font at the top is crisp, though a dark theme background option would be awesome for night play.",
             "haptic vibration when placing flags feels very crisp and no accidental taps so far. a zoom slider for larger grid sizes would be super convenient on phones.",
             "classic minesweeper feel with sleek modern grid, flags placed accurately with haptic feel. maybe make the number colors pop a bit more against grey tiles for better visibility."
         ]
@@ -302,6 +316,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 2.5),
         ]),
         "feedbacks": [
+            "the virtualizer knob adds noticeable width on earbuds without distorting vocals too much. would love a quick bypass button right beside presets so i can compare before and after easily.",
             "sliders are smooth and bass booster actually makes a noticeable difference on my headphones. would be great to have a widget or persistent notification toggle.",
             "eq sliders are very responsive and bass boost definitely kicks in punchy. the frequency visualizer looks dope, maybe add a couple more preset sound profiles like jazz or acoustic."
         ]
@@ -320,6 +335,7 @@ APP_PROFILES = [
             ("tap", 540, 900, 3.0),
         ]),
         "feedbacks": [
+            "currency formatting looks neat and logging daily spending takes almost no time. adding custom category icons or colors would make the list even easier to scan at a glance.",
             "adding recurring expenses is super straightforward and numbers are easy to read. would love a quick export to csv or pdf feature for monthly reports.",
             "simple and fast expense tracking, adding new entries takes just a couple seconds. would be great to see pie charts of monthly spending in the summary tab."
         ]
@@ -653,27 +669,28 @@ def main():
     session = load_session()
 
     empty_checks = 0
-    while empty_checks < 4:
+    while empty_checks < 3:
         tasks = get_visible_tasks()
         if not tasks:
             reset_to_tasks_view()
             tasks = get_visible_tasks()
 
         if not tasks:
-            # Swipe along left margin to reveal tasks below
-            adb_sh("input swipe 100 1800 100 900 250", timeout=2)
-            time.sleep(0.5)
-            tasks = get_visible_tasks()
-
-        if not tasks:
-            # Try swiping up slightly in case we scrolled past
-            adb_sh("input swipe 100 700 100 1600 250", timeout=2)
-            time.sleep(0.5)
-            tasks = get_visible_tasks()
+            # Scroll cleanly to top first, then step down scanning for task cards
+            adb_sh("input swipe 100 500 100 1900 200", timeout=2)
+            time.sleep(0.3)
+            adb_sh("input swipe 100 500 100 1900 200", timeout=2)
+            time.sleep(0.4)
+            for _ in range(3):
+                tasks = get_visible_tasks()
+                if tasks:
+                    break
+                adb_sh("input swipe 100 1800 100 600 250", timeout=2)
+                time.sleep(0.5)
 
         if not tasks:
             empty_checks += 1
-            print(f"[*] No task cards in view (check {empty_checks}/4)...")
+            print(f"[*] No task cards in view (check {empty_checks}/3)...")
             time.sleep(0.8)
             continue
 

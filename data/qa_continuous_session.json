@@ -1,120 +1,113 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-10",
   "tasks_completed": [
     {
       "app_name": "Toko Buah Mumtaz",
-      "screenshot": "data/evidence/shots\\2026-11-07-TokoBuahMumtaz.png",
-      "feedback": "fresh produce photos look really crisp and prices are easy to read. the category filter at the top could use a reset button tho so you dont have to deselect items one by one.",
-      "duration": 53.0,
-      "timestamp": "2026-11-07T11:22:44.341322"
+      "screenshot": "data/evidence/shots\\2026-11-10-TokoBuahMumtaz.png",
+      "feedback": "fruit stock updates loaded super quick today and checkout button placement is easy to reach with one hand. maybe add weight options like 500g vs 1kg directly on the product card so we dont gotta tap into each one.",
+      "duration": 48.03,
+      "timestamp": "2026-11-10T09:21:15.107623"
     },
     {
       "app_name": "Mie Ayam Bakso Jaya",
-      "screenshot": "data/evidence/shots\\2026-11-07-MieAyamBaksoJaya.png",
-      "feedback": "food photos make me super hungry and adding portions to cart is really simple. just noticed the total price took a second to refresh after adding extra meatballs.",
-      "duration": 54.0,
-      "timestamp": "2026-11-07T11:23:47.342886"
+      "screenshot": "data/evidence/shots\\2026-11-10-MieAyamBaksoJaya.png",
+      "feedback": "browsing through the bakso combos felt super smooth and the spicy level selector works nicely. would be cool if favorite orders saved at the top for quick reordering next time.",
+      "duration": 53.99,
+      "timestamp": "2026-11-10T09:22:16.085816"
     },
     {
       "app_name": "Bunkr",
-      "screenshot": "data/evidence/shots\\2026-11-07-Bunkr.png",
-      "feedback": "the biometrics unlock was fast and the dark theme looks great on my screen. would be super handy if we could sort uploaded files by date modified instead of just alphabet.",
-      "duration": 51.99,
-      "timestamp": "2026-11-07T11:24:56.335398"
-    },
-    {
-      "app_name": "Noodle Trails",
-      "screenshot": "data/evidence/shots\\2026-11-07-NoodleTrails.png",
-      "feedback": "trail mechanics feel super satisfying and drawing noodles is responsive. my only suggestion is maybe adding an undo move button if you accidentally cross the line on harder stages.",
-      "duration": 49.01,
-      "timestamp": "2026-11-07T11:25:52.354657"
+      "screenshot": "data/evidence/shots\\2026-11-10-Bunkr.png",
+      "feedback": "vault animations feel snappy and hiding sensitive docs takes just a couple taps. one tiny thing is thumbnail previews inside locked folders load a bit slow on large images, otherwise works solid.",
+      "duration": 52.98,
+      "timestamp": "2026-11-10T09:23:16.080782"
     },
     {
       "app_name": "Hero of fields",
-      "screenshot": "data/evidence/shots\\2026-11-07-HeroOfFields.png",
-      "feedback": "character attack animations look awesome and virtual joystick responds well. health bar on enemy bosses is kinda tiny on high res screens though, but gameplay is really engaging.",
-      "duration": 55.0,
-      "timestamp": "2026-11-07T11:26:56.341875"
+      "screenshot": "data/evidence/shots\\2026-11-10-HeroOfFields.png",
+      "feedback": "retro combat feels really tight and switching weapons is quick. wish there was a tiny tutorial popup explaining elemental weaknesses because i died twice before figuring it out lol.",
+      "duration": 53.01,
+      "timestamp": "2026-11-10T09:24:25.091694"
     },
     {
       "app_name": "The Bone Yard",
-      "screenshot": "data/evidence/shots\\2026-11-07-TheBoneYard.png",
-      "feedback": "dungeon crawl atmosphere is super spooky and step sounds are cool. maybe brighten the torch light radius a tiny bit because some room corners are almost pitch black.",
-      "duration": 54.0,
-      "timestamp": "2026-11-07T11:27:57.341037"
+      "screenshot": "data/evidence/shots\\2026-11-10-TheBoneYard.png",
+      "feedback": "spooky dungeon vibe is nailed and enemy hitboxes feel fair. adding a mini map corner overlay would help a lot so players dont keep walking back into empty rooms.",
+      "duration": 48.0,
+      "timestamp": "2026-11-10T09:25:21.092628"
     },
     {
       "app_name": "Toko Zan",
-      "screenshot": "data/evidence/shots\\2026-11-07-TokoZan.png",
-      "feedback": "checkout layout is clean and product cards load fast without stutter. would like to see customer reviews or ratings directly below the item descriptions.",
-      "duration": 52.99,
-      "timestamp": "2026-11-07T11:28:57.336613"
+      "screenshot": "data/evidence/shots\\2026-11-10-TokoZan.png",
+      "feedback": "storefront loads quick and fonts look very clean on mobile. would appreciate a wishlist heart icon on each item card so you can save stuff for later before checking out.",
+      "duration": 48.0,
+      "timestamp": "2026-11-10T09:26:17.084799"
     },
     {
       "app_name": "secret santa",
-      "screenshot": "data/evidence/shots\\2026-11-07-SecretSanta.png",
-      "feedback": "inviting members through link was super fast and clean. would be neat if there was an anonymous wishlist box where each person can drop 2 or 3 gift ideas.",
-      "duration": 47.01,
-      "timestamp": "2026-11-07T11:29:52.344756"
+      "screenshot": "data/evidence/shots\\2026-11-10-SecretSanta.png",
+      "feedback": "drawing names works without any hiccups and notifications arrived right away. would be nice if you could reshuffle pairs without having to delete and recreate the whole room.",
+      "duration": 53.0,
+      "timestamp": "2026-11-10T09:27:17.088892"
     },
     {
       "app_name": "Dziesiątka",
-      "screenshot": "data/evidence/shots\\2026-11-07-Dziesiatka.png",
-      "feedback": "super addictive puzzle and clear tiles layout. sometimes when clearing a row the tile falling animation skips a frame, but overall a great quick brain teaser.",
-      "duration": 51.99,
-      "timestamp": "2026-11-07T11:30:51.335725"
+      "screenshot": "data/evidence/shots\\2026-11-10-Dziesiatka.png",
+      "feedback": "really fun math twist on puzzle grids and runs super lightweight without warming up my phone. adding a daily challenge leaderboard or streak counter would make me come back every day.",
+      "duration": 48.01,
+      "timestamp": "2026-11-10T09:28:12.097890"
     },
     {
       "app_name": "Bookquote",
-      "screenshot": "data/evidence/shots\\2026-11-07-Bookquote.png",
-      "feedback": "typography styling and daily quote cards look really clean and minimal. it would be awesome to have a share as story button with custom colored backgrounds.",
-      "duration": 52.98,
-      "timestamp": "2026-11-07T11:31:51.325950"
+      "screenshot": "data/evidence/shots\\2026-11-10-Bookquote.png",
+      "feedback": "love the serif font choices and how calm the feed looks when scrolling. sometimes tapping an author name doesnt filter by their other quotes yet, that would be a great addition.",
+      "duration": 49.05,
+      "timestamp": "2026-11-10T09:29:08.118682"
     },
     {
       "app_name": "Boredom Jar",
-      "screenshot": "data/evidence/shots\\2026-11-07-BoredomJar.png",
-      "feedback": "the activity generator gave some really creative ideas that made me laugh. would be great to save favorite ideas into a done checklist so they dont repeat.",
-      "duration": 48.99,
-      "timestamp": "2026-11-07T11:32:48.339784"
+      "screenshot": "data/evidence/shots\\2026-11-10-BoredomJar.png",
+      "feedback": "shaking the jar animation feels cute and loading new prompts is instant. would be nice to add custom user ideas into our own personal jar deck.",
+      "duration": 48.95,
+      "timestamp": "2026-11-10T09:30:04.106937"
     },
     {
       "app_name": "Worldroot: Idle Tree Clicker",
-      "screenshot": "data/evidence/shots\\2026-11-07-Worldroot.png",
-      "feedback": "tapping leaves feels super responsive and the idle branch upgrades are fun to unlock. maybe add an auto-tap perk unlockable early on to save my thumb.",
-      "duration": 56.99,
-      "timestamp": "2026-11-07T11:33:53.331043"
+      "screenshot": "data/evidence/shots\\2026-11-10-Worldroot.png",
+      "feedback": "the ambient soundscape and leaf particle effects are surprisingly relaxing. offline earnings calculation seemed a tiny bit low after reopening the app, otherwise super polished idle game.",
+      "duration": 56.0,
+      "timestamp": "2026-11-10T09:31:09.081421"
     },
     {
       "app_name": "Equalizer: Bass & Sound Boost",
-      "screenshot": "data/evidence/shots\\2026-11-07-Equalizer.png",
-      "feedback": "sliders are smooth and bass booster actually makes a noticeable difference on my headphones. would be great to have a widget or persistent notification toggle.",
-      "duration": 52.01,
-      "timestamp": "2026-11-07T11:34:52.353473"
+      "screenshot": "data/evidence/shots\\2026-11-10-Equalizer.png",
+      "feedback": "the virtualizer knob adds noticeable width on earbuds without distorting vocals too much. would love a quick bypass button right beside presets so i can compare before and after easily.",
+      "duration": 53.02,
+      "timestamp": "2026-11-10T09:32:10.098419"
     },
     {
       "app_name": "LudoArcana",
-      "screenshot": "data/evidence/shots\\2026-11-07-LudoArcana.png",
-      "feedback": "the board theme looks super stylish and rolling the dice is snappy. could use a slightly louder audio cue when its your turn so you dont miss it while looking away.",
-      "duration": 50.99,
-      "timestamp": "2026-11-07T11:35:51.332028"
+      "screenshot": "data/evidence/shots\\2026-11-10-LudoArcana.png",
+      "feedback": "love the mystical card art twist on classic ludo and token moves never stutter. an option to speed up bot animations 2x would make solo matches way breezier.",
+      "duration": 60.0,
+      "timestamp": "2026-11-10T09:33:19.086245"
     },
     {
       "app_name": "Bütçe Takip",
-      "screenshot": "data/evidence/shots\\2026-11-07-ButceTakip.png",
-      "feedback": "adding recurring expenses is super straightforward and numbers are easy to read. would love a quick export to csv or pdf feature for monthly reports.",
-      "duration": 51.98,
-      "timestamp": "2026-11-07T11:36:52.340162"
+      "screenshot": "data/evidence/shots\\2026-11-10-ButceTakip.png",
+      "feedback": "currency formatting looks neat and logging daily spending takes almost no time. adding custom category icons or colors would make the list even easier to scan at a glance.",
+      "duration": 51.99,
+      "timestamp": "2026-11-10T09:34:18.095409"
     },
     {
       "app_name": "Ergofield: Minesweeper Puzzle",
-      "screenshot": "data/evidence/shots\\2026-11-07-Ergofield.png",
-      "feedback": "haptic vibration when placing flags feels very crisp and no accidental taps so far. a zoom slider for larger grid sizes would be super convenient on phones.",
-      "duration": 47.23,
-      "timestamp": "2026-11-07T11:37:55.571517"
+      "screenshot": "data/evidence/shots\\2026-11-10-Ergofield.png",
+      "feedback": "quick toggle between flag and dig modes works cleanly and board clears smoothly. timer font at the top is crisp, though a dark theme background option would be awesome for night play.",
+      "duration": 46.8,
+      "timestamp": "2026-11-10T09:35:20.900117"
     }
   ],
   "tasks_failed": [],
-  "total_execution_time": 830.16,
-  "average_task_duration": 51.89
+  "total_execution_time": 770.83,
+  "average_task_duration": 51.39
 }
